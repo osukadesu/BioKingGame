@@ -13,7 +13,6 @@ public class LogicaMision : MonoBehaviour
     [SerializeField] GameObject monera;
     [SerializeField] GameObject protista;
     [SerializeField] GameObject misionV;
-
     void Start()
     {
         GOFalse();
@@ -31,6 +30,7 @@ public class LogicaMision : MonoBehaviour
             {
                 txtMision.text = "Bien hecho!." + "\n Ahora dirigete a la escuela del reino vegetal.";
                 GOTrue();
+
             }
         }
     }
@@ -50,6 +50,4 @@ public class LogicaMision : MonoBehaviour
         monera.SetActive(true);
         protista.SetActive(true);
     }
-
-
 }

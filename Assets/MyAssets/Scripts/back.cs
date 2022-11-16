@@ -4,12 +4,13 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class back : MonoBehaviour
-{private void Start()
+{
+    private void Start()
     {
         Cursor.lockState = CursorLockMode.None;
     }
     public void MyBack()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(4);
     }
 }
