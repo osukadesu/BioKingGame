@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game.unity
     guid: 507f4eae594766b44a8c904a1bcaaa68
+  - enabled: 1
+    path: Assets/Scenes/ReinoVegetal.unity
+    guid: 71c564d27d7f4fa42a89ed7eed058983
   m_configObjects: {}
