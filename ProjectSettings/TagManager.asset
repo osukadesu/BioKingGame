@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Enemy
   - myTarget
+  - Brazos
+  - Matera
+  - Cube
   layers:
   - Default
   - TransparentFX

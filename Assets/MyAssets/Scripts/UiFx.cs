@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class UiFx : MonoBehaviour
 {
+    [SerializeField] private GameObject Mask;
+    private float rotationSpeed = -150f;
     void Update()
     {
-        transform.Rotate(0f, 0f, -120f * Time.deltaTime);
+        transform.RotateAround(Mask.transform.position, Mask.transform.forward, rotationSpeed * Time.deltaTime);
     }
 }
